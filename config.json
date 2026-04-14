@@ -1,0 +1,55 @@
+{
+  "name": "Newgrounds",
+  "platformUrl": "https://www.newgrounds.com",
+  "description": "Watch movies and videos from Newgrounds",
+  "author": "cpzki",
+  "authorUrl": "",
+  "sourceUrl": "https://github.com/cpzki/newgrounds-grayjay/releases/latest/download/config.json",
+  "scriptUrl": "./script.js",
+  "repositoryUrl": "https://github.com/cpzki/newgrounds-grayjay",
+  "version": 1,
+  "iconUrl": "https://www.newgrounds.com/img/icons/favicon.png",
+  "id": "d8d1151a-b93a-4082-86cb-058e603c8b6d",
+  "scriptSignature": "",
+  "scriptPublicKey": "",
+  "packages": [
+    "Http",
+    "DOMParser"
+  ],
+  "allowEval": false,
+  "allowAllHttpHeaderAccess": false,
+  "allowUrls": [
+    "www.newgrounds.com",
+    ".www.newgrounds.com"
+  ],
+  "supportedClaimTypes": [
+    27
+  ],
+  "settings": [
+    {
+      "variable": "baseUrl",
+      "name": "API Server",
+      "description": "API server endpoint",
+      "type": "Dropdown",
+      "default": "https://www.newgrounds.com",
+      "options": [
+        "https://www.newgrounds.com"
+      ]
+    },
+    {
+      "variable": "enableDebugLogging",
+      "name": "Enable Debug Logging",
+      "description": "Enable detailed logging for debugging purposes",
+      "type": "Boolean",
+      "default": "false"
+    }
+  ],
+  "changelog": {
+    "1": [
+      "Initial release"
+    ]
+  },
+  "constants": {
+    "defaultHeaders": {}
+  }
+}
