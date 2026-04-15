@@ -10,8 +10,8 @@
   "version": 1,
   "iconUrl": "https://www.newgrounds.com/img/icons/favicon.png",
   "id": "d8d1151a-b93a-4082-86cb-058e603c8b6d",
-  "scriptSignature": "",
-  "scriptPublicKey": "",
+  "scriptSignature": "WlxtzsTBtja7f49TOuPQad/LAajS3f+S1tEtdR1dRktdThyvQkyGBhza8u6zTUgAJ1/moqRooumYvF7wz0EAXZA6qcr1QbHKxzlFrrOhJMS1UI5jO4vP4NKmaHTmUM+2vum0G139HgujuE69YE1IzviQeIdbUdTwx/YMcIh6oPcYztuD5PxdZYI282GmrilWdwBNcavC+3seJtb+Yfj10S2CXNE6dP7SLQORy302CvQkVVNvMotjM97T/tNARNBy5xUWSlu67WLpV/6Ci2gLIr5saDfT2M7u13kaJXMr1b6G9PBQirnNv//pG4B5XRYAlODfxiMcXSSfA6ANGyV9fQ==",
+  "scriptPublicKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxpGwWZDar201NxAKcDEc\rVNVxt2+Vuo+Mdh8f1sEAw2UX092/rUv675uQo2owBeub+kWz8sWECAfugWWqEnWU\rALBJCRTc0uhIDX+VUzVSZOGVJyMp586it7BhcqEljbrYigV48B+kY77Kby4iQRSS\rFjGqq7RTL3n/cS5WwZrHtzbkHVCignHTnD+uL7YCbLgnN3MhneqeHFaH70xt6vlm\rexI99DvRVKfvlTQ51CUAbeVe6S96VTa8Vf0Y6L1BvgVdGX1W/caQvjBRWovzNBU5\rnTlNbpBuTwJp6HOPiFqgr4pUheyO6D/6BjCa31WPz4uTDmquOomvk0iraBsoD317\rvQIDAQAB",
   "packages": [
     "Http",
     "DOMParser"
