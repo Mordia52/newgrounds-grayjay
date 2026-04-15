@@ -95,8 +95,9 @@ function extractPublicKey() {
       { encoding: "utf8", stdio: ["pipe", "pipe", "ignore"] }
     );
 
-    // Remove BEGIN/END lines and newlines
+    // Remove BEGIN/END lines and newlines (handle both LF and CRLF)
     const publicKey = publicKeyPem
+      .replace(/\r/g, "")
       .split("\n")
       .filter(
         (line) =>
